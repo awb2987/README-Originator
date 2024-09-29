@@ -43,7 +43,7 @@ npm test
 ```
 
 ## Questions
-If you have any questions about this app, please contact me on [GitHub](https://github.com/yourusername).
+If you have any questions about this app, please contact me on [GitHub](https://github.com/awb2987).
 
 ## Video Tutorial
 Watch the tutorial on how to use this application: [Video Tutorial Link](https://link-to-your-video.com)
