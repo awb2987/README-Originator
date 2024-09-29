@@ -2,13 +2,13 @@
 
 // Function to return a license badge based on the desired license type
 function renderLicenseBadge(license) {
-  if (license === 'None') return ''; // No badge because no license chosen
+  if (license === 'No License') return ''; // No badge because no license chosen
   return `![License](https://img.shields.io/badge/license-${license.replace(' ', '%20')}-blue.svg)`;
 }
 
 // Function to return the license link in the README
 function renderLicenseLink(license) {
-  if (license === 'None') return ''; // No link because no license chosen
+  if (license === 'No License') return ''; // No link because no license chosen
   const licenseLinks = {
     'MIT': 'https://opensource.org/licenses/MIT',
     'GPL': 'https://opensource.org/licenses/GPL-3.0',
@@ -20,7 +20,7 @@ function renderLicenseLink(license) {
 
 // Function to return the license section of the README
 function renderLicenseSection(license) {
-  if (license === 'None') return ''; // No license section because no license chosen
+  if (license === 'No License') return ''; // No license section because no license chosen
   return `## License
 This project is licensed under the [${license}](${renderLicenseLink(license)}) License.`;
 }
@@ -61,4 +61,5 @@ If you have any questions about this app, please contact me on [GitHub](https://
 `;
 }
 
+// Export the generateMarkdown function
 module.exports = generateMarkdown;
