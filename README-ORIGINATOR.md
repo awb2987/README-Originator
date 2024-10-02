@@ -46,7 +46,7 @@ npm test
 If you have any questions about this app, please contact me on [GitHub](https://github.com/awb2987).
 
 ## Video Tutorial
-Watch the tutorial on how to use this application: [Video Tutorial Link](https://link-to-your-video.com)
+Watch the tutorial on how to use this application: [Video Tutorial Link](https://drive.google.com/file/d/12oz-DBqSF8U1HuElXLfv4ShFXPSJt_Bh/view)
 
 ## GitHub Repository
 Check out the repository for this project on GitHub: [GitHub Repository Link](https://github.com/awb2987/README-originator)
